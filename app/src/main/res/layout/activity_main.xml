@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/beckground"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="112dp"
+        android:orientation="horizontal"
+        tools:context=".MainActivity">
+
+
+        <EditText
+            android:id="@+id/num1"
+            android:layout_width="104dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="50dp"
+            android:background="@android:color/background_light"
+            android:gravity="center"
+            android:inputType="numberDecimal"
+            android:text=""
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/action"
+            android:layout_width="20sp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:gravity="center"
+            android:text=""
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/num2"
+            android:layout_width="104dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:background="@android:color/background_light"
+            android:gravity="center"
+            android:inputType="numberDecimal"
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:gravity="center"
+            android:text=" = "
+            android:textSize="30sp" />
+
+
+        <TextView
+            android:id="@+id/result"
+            android:layout_width="104dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:background="@android:color/background_light"
+            android:gravity="center"
+            android:text=""
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="79dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/plus"
+            android:layout_width="83dp"
+            android:layout_height="67dp"
+            android:layout_marginLeft="10dp"
+            android:background="@android:drawable/button_onoff_indicator_off"
+            android:text="+"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/minus"
+            android:layout_width="83dp"
+            android:layout_height="67dp"
+            android:layout_marginLeft="5dp"
+            android:background="@android:drawable/button_onoff_indicator_off"
+            android:text="-"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/multiply"
+            android:layout_width="83dp"
+            android:layout_height="67dp"
+            android:layout_marginLeft="5dp"
+            android:background="@android:drawable/button_onoff_indicator_off"
+            android:text="*"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/devision"
+            android:layout_width="83dp"
+            android:layout_height="67dp"
+            android:layout_marginLeft="5dp"
+            android:background="@android:drawable/button_onoff_indicator_off"
+            android:text="/"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/bt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="חישוב"
+        android:textColor="#E41212"
+        android:textSize="30sp"/>
+
+</LinearLayout>
